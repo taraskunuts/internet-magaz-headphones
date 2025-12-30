@@ -17,7 +17,7 @@ function App() {
         />
       </label>
 
-      <HeadphonesList products={products} maxPr={maxPr} />
+      <HeadphonesList products={products} maxPrice={maxPr} />
     </div>
   );
 }
