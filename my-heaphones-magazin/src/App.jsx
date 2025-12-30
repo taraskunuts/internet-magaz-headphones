@@ -17,7 +17,7 @@ function App() {
       <h2>Навушники</h2>
       <label>
         Максимальна ціна:
-        <input type="number" ref={ref} value={maxPrice} onChange={e => setPr(Number(e.target.value))} />
+        <input type="number" ref={ref} value={maxPr} onChange={e => setPr(Number(e.target.value))} />
       </label>
 
       <HeadphonesList products={products} maxPrice={maxPr} />
